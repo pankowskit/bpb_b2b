@@ -9,6 +9,33 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.about-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .comingsoon-s1 {
   background-attachment: scroll;
   background-image: url(../img/comingsoon.jpg);
@@ -27,9 +54,81 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.partners-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/partners/partners-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.partners-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/partners/partners-s2.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .privacy-s1 {
   background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.strategy-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/strategy/strategy-s1.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.strategy-s2 {
+  background-attachment: scroll;
+  background-image: url();
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.strategy-s3 {
+  background-attachment: scroll;
+  background-image: url(../img/strategy/strategy-s3.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.strategy-s4 {
+  background-attachment: scroll;
+  background-image: url(../img/strategy/strategy-s4.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.strategy-s5 {
+  background-attachment: scroll;
+  background-image: url(../img/strategy/strategy-s5.jpg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -40,6 +139,133 @@ body, html {
   background-blend-mode: multiply;
 }
 
+/* line 9, ../sass/partials/_modules.scss */
+.about-s1, .about-s2, .about-s3 {
+  background-color: #bbb !important;
+  background-blend-mode: multiply !important;
+  background-position: center !important;
+}
+
+/* line 16, ../sass/partials/_modules.scss */
+.contact-s3 {
+  background-color: #999 !important;
+  background-blend-mode: multiply !important;
+}
+
+/* line 22, ../sass/partials/_modules.scss */
+.dentists-s1, .blog-s1, .contact-s1 {
+  background-position: center !important;
+}
+
+/* line 27, ../sass/partials/_modules.scss */
+.index-s1 {
+  background-color: #bbb !important;
+  background-blend-mode: multiply !important;
+  background-position: center !important;
+}
+/* line 32, ../sass/partials/_modules.scss */
+.index-s6 {
+  background-color: #999 !important;
+  background-blend-mode: multiply !important;
+}
+
+/* line 38, ../sass/partials/_modules.scss */
+.partners-s1 {
+  background-color: #bbb !important;
+  background-blend-mode: multiply !important;
+  background-position: center !important;
+}
+/* line 43, ../sass/partials/_modules.scss */
+.partners-s2 {
+  background-color: #eee !important;
+  background-blend-mode: multiply !important;
+  background-position: center !important;
+}
+
+/* line 50, ../sass/partials/_modules.scss */
+.strategy-s1, .strategy-s3, .strategy-s4, .strategy-s5 {
+  background-color: #bbb !important;
+  background-blend-mode: multiply !important;
+  background-position: center !important;
+}
+
+/* line 57, ../sass/partials/_modules.scss */
+.text-shadow {
+  text-shadow: 1px 1px 3px #333;
+}
+
+/* line 61, ../sass/partials/_modules.scss */
+header {
+  z-index: 10;
+}
+
+/* line 64, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
+@media all and (max-width: 767px) {
+  /* line 70, ../sass/partials/_modules.scss */
+  .about-s1, .about-s2, .about-s3 {
+    background-color: #999 !important;
+    background-blend-mode: multiply !important;
+    text-shadow: 1px 1px 3px #333;
+  }
+  /* line 71, ../sass/partials/_modules.scss */
+  .about-s1 *, .about-s2 *, .about-s3 * {
+    color: #fff !important;
+  }
+
+  /* line 80, ../sass/partials/_modules.scss */
+  .contact-s1, .contact-s2 {
+    background-color: #999 !important;
+    background-blend-mode: multiply !important;
+    text-shadow: 1px 1px 3px #333;
+  }
+  /* line 81, ../sass/partials/_modules.scss */
+  .contact-s1 *, .contact-s2 * {
+    color: #fff !important;
+  }
+
+  /* line 90, ../sass/partials/_modules.scss */
+  .index-s1, .partners-s1 {
+    background-color: #999 !important;
+    background-blend-mode: multiply !important;
+    text-shadow: 1px 1px 3px #333;
+  }
+  /* line 91, ../sass/partials/_modules.scss */
+  .index-s1 *, .partners-s1 * {
+    color: #fff !important;
+  }
+  /* line 98, ../sass/partials/_modules.scss */
+  .index-s5, .partners-s5 {
+    background-position: right !important;
+  }
+
+  /* line 104, ../sass/partials/_modules.scss */
+  .navbar-nav *:hover {
+    opacity: 0.8;
+  }
+
+  /* line 110, ../sass/partials/_modules.scss */
+  .strategy-s1, .strategy-s3, .strategy-s4, .strategy-s5 {
+    background-color: #999 !important;
+    background-blend-mode: multiply !important;
+    text-shadow: 1px 1px 3px #333;
+  }
+  /* line 111, ../sass/partials/_modules.scss */
+  .strategy-s1 *, .strategy-s3 *, .strategy-s4 *, .strategy-s5 * {
+    color: #fff !important;
+  }
+  /* line 118, ../sass/partials/_modules.scss */
+  .strategy-s4 {
+    background-position: right !important;
+  }
+  /* line 121, ../sass/partials/_modules.scss */
+  .strategy-s5 {
+    background-position: left !important;
+  }
+}
 /* line 2, ../sass/partials/_minh.scss */
 .minh-auto {
   min-height: auto;
