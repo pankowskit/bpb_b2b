@@ -5,3 +5,121 @@
         background-blend-mode: multiply;
     }
 }
+.about{
+    &-s1,&-s2,&-s3{
+        background-color: #bbb!important;
+        background-blend-mode: multiply!important;
+        background-position: center!important;
+    }
+}
+.contact{
+    &-s3{
+        background-color: #999!important;
+        background-blend-mode: multiply!important;
+    }
+}
+.dentists,.blog,.contact{
+    &-s1{
+        background-position: center!important;
+    }
+}
+.index{
+    &-s1{
+        background-color: #bbb!important;
+        background-blend-mode: multiply!important;
+        background-position: center!important;
+    }
+    &-s6{
+        background-color: #999!important;
+        background-blend-mode: multiply!important;
+    }
+}
+.partners{
+    &-s1{
+        background-color: #bbb!important;
+        background-blend-mode: multiply!important;
+        background-position: center!important;
+    }
+    &-s2{
+        background-color: #eee!important;
+        background-blend-mode: multiply!important;
+        background-position: center!important;
+    }
+}
+.strategy{
+    &-s1,&-s3,&-s4,&-s5{
+        background-color: #bbb!important;
+        background-blend-mode: multiply!important;
+        background-position: center!important;
+    }
+}
+.text{
+    &-shadow{
+        text-shadow: $text-shadow;
+    }
+}
+header{
+    z-index: 10;
+}
+textarea{
+    resize: none;
+}
+
+@media all and (max-width: 767px){
+    .about{
+        &-s1,&-s2,&-s3{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+            text-shadow: $text-shadow;
+        }
+    }
+    .contact{
+        &-s1,&-s2{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+            text-shadow: $text-shadow;
+        }
+    }
+    .index,.partners{
+        &-s1{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+            text-shadow: $text-shadow;
+        }
+        &-s5{
+            background-position: right!important;
+        }
+    }
+    .navbar{
+        &-nav{
+            *:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+    .strategy{
+        &-s1,&-s3,&-s4,&-s5{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply!important;
+            text-shadow: $text-shadow;
+        }
+        &-s4{
+            background-position: right!important;
+        }
+        &-s5{
+            background-position: left!important;
+        }
+    }
+}
